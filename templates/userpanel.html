@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: antiquewhite;
+    }
+</style>
+
+<body>
+    <div>
+        <button>withdraw</button>
+    </div><br>
+    <div>
+        <button>credit</button>
+    </div><br>
+    <a href="{{url_for('balance',an=account_no,pn=pin_no)}}"><button>balance</button></a>
+</body>
+
+</html>
